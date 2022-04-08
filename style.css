@@ -49,7 +49,7 @@ body {
   height: 17.16px;
   left: 606px;
   top: 325.84px;
-  padding: 22px 0 0 50px;
+  padding: 20px 0 0 50px;
 }
 
 .red {
@@ -89,8 +89,8 @@ body {
   position: relative;
   width: 81px;
   height: 81px;
-    /* left: 490px;
-top: 320px; */
+  padding-left: 10px;
+
 }
 
 .blue {
@@ -112,6 +112,7 @@ top: 320px; */
   top: 15px;
   background: rgba(255, 255, 255, 0.66);
   border-radius: 11px;
+  margin-left: 7px;
 }
 
 .leftBottom {
@@ -145,6 +146,7 @@ top: 320px; */
   margin: 0 auto;
   padding: 10px 0 5px 0;
   display: flex;
+  padding-left: 10px;
 }
 
 .circle1 {
@@ -167,7 +169,7 @@ top: 320px; */
 }
 
 .whiteScreen {
-  margin-left: 15px;
+  margin-left: 20px;
   width: 248px;
   height: 157px;
   left: 506px;
@@ -298,7 +300,8 @@ top: 320px; */
   padding-left: 15px;
 }
 
-/*----------------------------*/
+/*----------------------------------------------------------------------------*/
+
 .middleSection {
   width: 92px;
   height: 566px;
@@ -331,6 +334,8 @@ top: 320px; */
 .bottomDarkGradient {
   margin-top: 114px;
 }
+
+/*----------------------------------------------------------------------------*/
 
 .rightSection {
   height: 566px;

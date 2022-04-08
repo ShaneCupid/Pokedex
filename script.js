@@ -41,6 +41,7 @@ async function generatePokemon(pokeID) {
   const res = await fetch(url)
   const data = await res.json()
   console.log(data.name)
-  
-
+  pokeName.innerText = data.name.toUpperCase()
+  pokeType.innerText = data.types[0].type.name.toUpperCase()
+  image.src = data.sprites.front_default
 }

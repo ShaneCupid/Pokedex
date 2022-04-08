@@ -19,13 +19,20 @@ buttons.forEach((btn, idx) => {
 });
 
 fwdBtn.addEventListener('click', () => {
-if(pokeID.innerHTML > 0 && pokeID.innerHTML < 898) {pokeID.innerHTML++ }
+if(pokeID.innerHTML == 898) {
+  pokeID.innerText = 1;
+}
+else if(pokeID.innerHTML > 0 && pokeID.innerHTML < 898) {pokeID.innerHTML++ }
+
 generatePokemon(pokeID)
 
 })
 
 backBtn.addEventListener('click',() => {
-  if(pokeID.innerHTML > 1) {pokeID.innerHTML-- }
+  if(pokeID.innerHTML == 1) {
+    pokeID.innerHTML= 898;
+  }
+  else if(pokeID.innerHTML > 1) {pokeID.innerHTML-- }
   generatePokemon(pokeID)
 })
 

@@ -236,6 +236,12 @@ top: 320px; */
   box-sizing: border-box;
   margin-left: 12px;
 }
+.blueCircle2:active {
+  transform: scale(0.95);
+}
+.blueCircle2:focus {
+  outline: 0;
+}
 
 .bottomMiddleButtons {
   width: 150px;
@@ -402,8 +408,18 @@ top: 320px; */
   border-radius: 6px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center;z
 }
+.button:active {
+  background:  #00199D 100%;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 1000ms linear;
+}
+.button:focus {
+  outline: 0;
+}
+
 
 .text {
   font-family: 'Arial';
@@ -487,6 +503,15 @@ top: 320px; */
   border-radius: 5px 0px 0px 5px;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.73);
 }
+.decrease:active {
+  transform: scale(0.98);
+}
+.decrease:focus {
+  outline: 0;
+}
+.decrease:hover {
+background: linear-gradient(180deg, #5E8BFE 0%, #3049CD 63.02%, #00199D 100%);
+}
 
 .backward {
   height: 50%;
@@ -507,6 +532,15 @@ top: 320px; */
   border-left: none;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.73);
 }
+.increase:active {
+  transform: scale(0.98);
+}
+.increase:focus {
+  outline: 0;
+}
+.increase:hover {
+background: linear-gradient(180deg, #5E8BFE 0%, #3049CD 63.02%, #00199D 100%);
+}
 
 .forward {
   height: 50%;
@@ -523,6 +557,16 @@ top: 320px; */
   background: linear-gradient(315.49deg, #FFB915 -10.59%, #FFE815 66.39%);
   border: 1px solid rgba(0, 0, 0, 0.41);
   box-sizing: border-box;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.73);
+}
+.delete:active {
+  background: linear-gradient(315.49deg, #FFB915 -10.59%, #ffb515 66.39%);
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 1000ms linear;
+}
+.delete:focus {
+  outline: 0;
 }
 
 .backward1 {

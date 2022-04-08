@@ -37,7 +37,11 @@ async function generatePokemon(pokeID) {
   let id = pokeID.innerText
   const url = `https://pokeapi.co/api/v2/pokemon/${id}`
 
-
+ if(id<=0 || id>898){
+  pokeName.innerText="This is invalid?"
+  pokeType.innerText="";
+ }
+  else{
   const res = await fetch(url)
   const data = await res.json()
   console.log(data.name)
@@ -45,3 +49,4 @@ async function generatePokemon(pokeID) {
   pokeType.innerText = data.types[0].type.name.toUpperCase()
   image.src = data.sprites.front_default
 }
+  }

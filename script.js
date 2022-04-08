@@ -20,10 +20,13 @@ buttons.forEach((btn, idx) => {
 
 fwdBtn.addEventListener('click', () => {
   pokeID.innerHTML++
+generatePokemon(pokeID)
+
 })
 
 backBtn.addEventListener('click',() => {
   pokeID.innerHTML--
+  generatePokemon(pokeID)
 })
 
 deletes.addEventListener('click',() => {

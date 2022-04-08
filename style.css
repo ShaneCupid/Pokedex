@@ -291,6 +291,7 @@ body {
   /* flex-start, center, flex-end */
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 .input {

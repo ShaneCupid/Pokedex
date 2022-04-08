@@ -89,7 +89,7 @@ body {
   position: relative;
   width: 81px;
   height: 81px;
-  /* left: 490px;
+    /* left: 490px;
 top: 320px; */
 }
 
@@ -232,6 +232,7 @@ top: 320px; */
   border: 1px solid #00199D;
   box-sizing: border-box;
   margin-left: 12px;
+  cursor:pointer;
 }
 
 .bottomMiddleButtons {
@@ -289,7 +290,7 @@ top: 320px; */
   font-size: 30px;
   font-family: 'Arial';
   text-align: center;
-}
+  }
 
 .keypad {
   width: 55%;
@@ -397,6 +398,7 @@ top: 320px; */
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .text {
@@ -480,6 +482,7 @@ top: 320px; */
   box-sizing: border-box;
   border-radius: 5px 0px 0px 5px;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.73);
+  cursor: pointer;
 }
 
 .backward {
@@ -500,6 +503,7 @@ top: 320px; */
   border-radius: 0px 5px 5px 0px;
   border-left: none;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.73);
+  cursor:pointer;
 }
 
 .forward {
@@ -517,6 +521,7 @@ top: 320px; */
   background: linear-gradient(315.49deg, #FFB915 -10.59%, #FFE815 66.39%);
   border: 1px solid rgba(0, 0, 0, 0.41);
   box-sizing: border-box;
+  cursor:pointer;
 }
 
 .backward1 {

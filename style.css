@@ -181,10 +181,9 @@ body {
 }
 
 .image {
-  padding: 10px 0 0 70px;
-  width: 47%;
-  height: 47%;
-  margin: 10px;
+  padding: 5px 0 0 50px;
+  width: 60%;
+  height: 60%;
 }
 
 .greyBottomButtons {

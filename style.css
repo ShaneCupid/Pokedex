@@ -1,18 +1,18 @@
 body {
-  background-image:url("images/b1.png");
+  background-image: url("images/b1.png");
 }
 
 .pokedex {
-  position: absolute;
+  position: relative;
   width: 840px;
   height: 566px;
-  left: 444px;
-  top: 275px;
   display: flex;
+  margin: 0 auto;
+  place-items: center;
+  height: 100vh;
 }
 
 .leftSection {
-  /* position: absolute; */
   width: 374px;
   height: 566px;
   left: 444px;
@@ -20,7 +20,6 @@ body {
 }
 
 .topLeftSection {
-  /* position: absolute; */
   width: 100%;
   height: 155px;
   left: 444px;
@@ -28,7 +27,6 @@ body {
 }
 
 .topLeftDark {
-  /* position: absolute; */
   width: 374px;
   height: 155px;
   left: 444px;
@@ -43,7 +41,6 @@ body {
 }
 
 .redYellowGreen {
-  /* position: absolute; */
   display: flex;
   width: 82px;
   height: 17.16px;
@@ -53,7 +50,6 @@ body {
 }
 
 .red {
-  /* position: absolute; */
   width: 17.16px;
   height: 17.16px;
   left: 606px;
@@ -62,7 +58,6 @@ body {
 }
 
 .yellow {
-  /* position: absolute; */
   width: 17.16px;
   height: 17.16px;
   left: 638.42px;
@@ -72,7 +67,6 @@ body {
 }
 
 .green {
-  /* position: absolute; */
   width: 17.16px;
   height: 17.16px;
   left: 670.84px;
@@ -90,11 +84,9 @@ body {
   width: 81px;
   height: 81px;
   padding-left: 10px;
-
 }
 
 .blue {
-  /* position: absolute; */
   width: 81px;
   height: 81px;
   left: 490px;
@@ -233,11 +225,13 @@ body {
   border: 1px solid #00199D;
   box-sizing: border-box;
   margin-left: 12px;
-  cursor:pointer;
+  cursor: pointer;
 }
+
 .blueCircle2:active {
   transform: scale(0.95);
 }
+
 .blueCircle2:focus {
   outline: 0;
 }
@@ -285,7 +279,6 @@ body {
   box-sizing: border-box;
   box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 0.42);
   border-radius: 8px;
-
   display: flex;
   /* align-items, align-content, justify-content, justify-items */
   /* flex-start, center, flex-end */
@@ -298,7 +291,7 @@ body {
   font-size: 30px;
   font-family: 'Arial';
   text-align: center;
-  }
+}
 
 .keypad {
   width: 55%;
@@ -307,7 +300,6 @@ body {
 }
 
 /*----------------------------------------------------------------------------*/
-
 .middleSection {
   width: 92px;
   height: 566px;
@@ -342,7 +334,6 @@ body {
 }
 
 /*----------------------------------------------------------------------------*/
-
 .rightSection {
   height: 566px;
   width: 374px;
@@ -411,16 +402,17 @@ body {
   justify-content: center;
   cursor: pointer;
 }
+
 .button:active {
-  background:  #00199D 100%;
-    -webkit-transition: background-color 1000ms linear;
-    -ms-transition: background-color 100ms linear;
-    transition: background-color 1000ms linear;
+  background: #00199D 100%;
+  -webkit-transition: background-color 1000ms linear;
+  -ms-transition: background-color 100ms linear;
+  transition: background-color 1000ms linear;
 }
+
 .button:focus {
   outline: 0;
 }
-
 
 .text {
   font-family: 'Arial';
@@ -505,14 +497,17 @@ body {
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.73);
   cursor: pointer;
 }
+
 .decrease:active {
   transform: scale(0.98);
 }
+
 .decrease:focus {
   outline: 0;
 }
+
 .decrease:hover {
-background: linear-gradient(180deg, #5E8BFE 0%, #3049CD 63.02%, #00199D 100%);
+  background: linear-gradient(180deg, #5E8BFE 0%, #3049CD 63.02%, #00199D 100%);
 }
 
 .backward {
@@ -533,16 +528,19 @@ background: linear-gradient(180deg, #5E8BFE 0%, #3049CD 63.02%, #00199D 100%);
   border-radius: 0px 5px 5px 0px;
   border-left: none;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.73);
-  cursor:pointer;
+  cursor: pointer;
 }
+
 .increase:active {
   transform: scale(0.98);
 }
+
 .increase:focus {
   outline: 0;
 }
+
 .increase:hover {
-background: linear-gradient(180deg, #5E8BFE 0%, #3049CD 63.02%, #00199D 100%);
+  background: linear-gradient(180deg, #5E8BFE 0%, #3049CD 63.02%, #00199D 100%);
 }
 
 .forward {
@@ -560,15 +558,17 @@ background: linear-gradient(180deg, #5E8BFE 0%, #3049CD 63.02%, #00199D 100%);
   background: linear-gradient(315.49deg, #FFB915 -10.59%, #FFE815 66.39%);
   border: 1px solid rgba(0, 0, 0, 0.41);
   box-sizing: border-box;
-  cursor:pointer;
+  cursor: pointer;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.73);
 }
+
 .delete:active {
   background: linear-gradient(315.49deg, #FFB915 -10.59%, #ffb515 66.39%);
-    -webkit-transition: background-color 1000ms linear;
-    -ms-transition: background-color 100ms linear;
-    transition: background-color 1000ms linear;
+  -webkit-transition: background-color 1000ms linear;
+  -ms-transition: background-color 100ms linear;
+  transition: background-color 1000ms linear;
 }
+
 .delete:focus {
   outline: 0;
 }
